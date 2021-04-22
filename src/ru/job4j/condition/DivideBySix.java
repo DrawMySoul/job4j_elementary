@@ -3,7 +3,6 @@ package ru.job4j.condition;
 public class DivideBySix {
 	public static String checkNumber(int number) {
 		String result;
-
 		if (number % 2 == 0) {
 			if (number % 3 == 0) {
 				result = "Исходное число делится на 6.";
